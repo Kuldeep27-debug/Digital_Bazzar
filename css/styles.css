@@ -1,0 +1,175 @@
+/* tag-selectors */
+body {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+
+}
+
+h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+#Services h2{
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.title-head {
+  margin-top: 50px;
+}
+
+/* navbar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* download-buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-section */
+
+#title {
+  background-color: #628395;
+  color: #fff;
+  height: 100vh;
+}
+
+.title-image {
+  width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+/* Services Section */
+
+.widget-whiteBg2 {
+    background: #fff;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    -webkit-box-shadow: 0px 3px 14px 0px rgb(0 0 0 / 17%);
+    -moz-box-shadow: 0px 3px 14px 0px rgba(0,0,0,0.17);
+    box-shadow: 0px 3px 14px 0px rgb(0 0 0 / 17%);
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Team-section */
+
+#Team-Mates {
+  background-color: #628395;
+  color: #fff;
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.Team-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* footer-section */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.bottom-icons {
+  margin: 10px 10px;
+}
+
+/* Responsive-Code */
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
